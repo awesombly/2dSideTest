@@ -1,0 +1,28 @@
+{
+    "installs": [
+        {
+            "name": "Common",
+            "version": "2.0.1",
+            "dependency": []
+        },
+        {
+            "name": "UI",
+            "version": "2.0.2",
+            "dependency": []
+        },
+        {
+            "name": "LogViewer",
+            "version": "2.0.1",
+            "dependency": [
+                "UI"
+            ]
+        },
+        {
+            "name": "AssetManagement",
+            "version": "1.2.1",
+            "dependency": [
+                "Common"
+            ]
+        }
+    ]
+}
